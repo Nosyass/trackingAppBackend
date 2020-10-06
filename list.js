@@ -20,5 +20,5 @@ export const main = handler(async (event, context) => {
 
   // Return the matching list of items in response body
   // return result.Items;
- return [{"userId":IEIEIE, content :"ddddddddd"},{"userId":IEIEIE, content :"ddddddddd"}];
+ return [{"userId":"IEIEIE", content :"ddddddddd"},{"userId":"IEIEIE", content :"ddddddddd"}];
 });
