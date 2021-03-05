@@ -22,7 +22,7 @@ export const main = handler(async (event, context) => {
       content: data.content,
       attachment: data.attachment,
       createdAt: Date.now(),
-	  price: data.price
+
     }
   };
   await dynamoDb.put(params);
